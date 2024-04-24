@@ -68,3 +68,16 @@ This section has moved here: [https://vitejs.dev/guide/build.html](https://vitej
 ### Troubleshooting
 
 This section has moved here: [https://vitejs.dev/guide/troubleshooting.html](https://vitejs.dev/guide/troubleshooting.html)
+
+
+### The Beginner's Guide to React
+
+This repository contains *The Beginner's Guide to React* by Kent C. Dodds in the subdirectory `bgtr`. The code in that directory is taken from https://github.com/kentcdodds/beginners-guide-to-react to enable working on and experimenting with the course's code without the need to install a development environment including node.js and friends. 
+
+The `.devcontainer` configuration in this repository enables the use in [GitHub's CodeSpaces](https://github.com/features/codespaces) as well as in local environments providing Docker and VS Code with the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+
+While the contents of *The Beginner's Guide to React* do not need the whole React ecosystem installed in the `.devcontainer` configuration, it may serve well for further explorations of React.
+
+Adaptations made to make this work:
+- file `mockServiceWorker.js` in the root directory added to enable the example `bgtr/25-http.html`
+- directory `bgtr` added to include the code from *The Beginner's Guide to React* by Kent C. Dodds (https://github.com/kentcdodds/beginners-guide-to-react)
